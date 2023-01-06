@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation Horizontal and Vertical Loader with (SCSS,JS) | Crimson</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="67px" height="67px" viewBox="0 0 67 67" style="enable-background:new 0 0 67 67;" xml:space="preserve">
+        <style type="text/css">
+          .st0 { fill: #FFFFFF; } 
+        </style>
+      
+        <symbol id="ps_triangle" viewBox="0 0 67 67">
+          <path class="st0" d="M0.1,62.2L33.4,4.5l33.5,57.7L0.1,62.2z M33.4,18.9L12.5,55h41.8L33.4,18.9z"/>
+        </symbol>
+      
+        <symbol id="ps_square" viewBox="0 0 67 67">
+          <path class="st0" d="M62.3,4.5v57.7H4.6V4.5H62.3z M54.8,12H12.1v42.6h42.6V12z"/>
+        </symbol>
+      
+        <symbol id="ps_circle" viewBox="0 0 67 67">
+          <path id="ps_circle" class="st0" d="M33.5,3c16.7,0,30.2,13.5,30.2,30.2c0,16.7-13.5,30.2-30.2,30.2S3.2,50,3.2,33.3 C3.2,16.6,16.7,3,33.5,3z M55.7,33.3C55.7,21,45.8,11,33.5,11C21.1,11,11.2,21,11.2,33.3c0,12.3,9.9,22.3,22.3,22.3 C45.8,55.5,55.7,45.6,55.7,33.3z" />
+        </symbol>
+      
+        <symbol id="ps_cross" viewBox="0 0 67 67">
+          <path class="st0" d="M57,63L33.5,39.5L10,63l-5.3-5.3l23.5-23.5L4.7,10.7L10,5.4l23.5,23.5L57,5.4l5.3,5.3L38.7,34.2 l23.5,23.6L57,63z"/>
+        </symbol>
+      </svg>
+      
+      <div class="loader">
+        <div class="icon animate" id="icon1"><svg><use xlink:href="#ps_triangle" id="svg1" class="svg-icon" /></svg></div><!--
+      --><div class="icon animate" id="icon2"><svg><use xlink:href="#ps_square" id="svg2" class="svg-icon" /></svg></div><!--
+      --><div class="icon animate" id="icon3"><svg><use xlink:href="#ps_cross" id="svg3" class="svg-icon" /></svg></div><!--
+      --><div class="icon animate" id="icon4"><svg><use xlink:href="#ps_circle" id="svg4" class="svg-icon" /></svg></div>
+      </div>
+      
+      <button>Horizontal or Vertical</button>
+
+
+      <script src="js/main.js"></script>
+</body>
+</html>
